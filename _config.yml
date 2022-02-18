@@ -1,7 +1,7 @@
 remote_theme: "dracula/gh-pages"
 
-plugins:
-  - jekyll-seo-tag
+aplugins:
+  #- jekyll-seo-tag
   
 #theme: jekyll-theme-hacker
-show_header: "false"
+#show_header: "false"
