@@ -3,7 +3,7 @@
 <img src="{{ site.baseurl }}/assets/rev.gif">
 
 #### [](#header-4)Header 4
- Having Founded GuideM, innovating as curriculum lead and author for GuideM's Offensive offering. I have a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. Working as a VAPT Engineer and a Freelance Security consultant helping secure businesses and organizations against cyber attacks.
+ `Having Founded GuideM`, innovating as curriculum lead and author for GuideM's Offensive offering. I have a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. `Working as a VAPT Engineer and a Freelance Security consultant helping secure businesses and organizations against cyber attacks.`
 <br>
  <br>
 I spends most of my time doing: <br>
