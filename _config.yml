@@ -13,3 +13,5 @@ plugins:
 #theme: jekyll-theme-hacker
 show_header: "true"
 show_header: true
+
+theme: jekyll-theme-hacker
