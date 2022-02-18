@@ -4,7 +4,7 @@
 
 >I am really proud to have founded GuideM, being able to teach and mentor people is really something that helps you grow not only professionally but also in terms of aspirational goals of touching someonse life.
 
-Innovating as curriculum lead and author for GuideM's Offensive offering is what I still do. I have a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. <mark>Working as a VAPT Engineer and a Freelance Security consultant<mark/> helping secure businesses and organizations against cyber attacks.
+Innovating as curriculum lead and author for GuideM's Offensive offering is what I still do. I have a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. <mark>Working as a VAPT Engineer and a Freelance Security consultant</mark> helping secure businesses and organizations against cyber attacks.
 <br>
  <br>
 I spends most of my time doing: <br>
