@@ -3,7 +3,6 @@ email: iansecretario@guidem.ph
 baseurl: '/'
 github_username: iansecretario
 remote_theme: "dracula/gh-pages"
-show_header: true
 markdown: kramdown
 highlighter: rouge
 plugins:
@@ -13,3 +12,4 @@ plugins:
 
 #theme: jekyll-theme-hacker
 show_header: "true"
+show_header: true
