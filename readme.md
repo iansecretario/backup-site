@@ -8,7 +8,7 @@ permalink: /
 ---
 # @Ian Secretario
 
-```python {data-file="assets/scripts/copyCode.js" data-copyable=true}
+```python
 import os 
 import sys
 
