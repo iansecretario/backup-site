@@ -2,9 +2,8 @@
 ## About Me
 ---
 
-![me](https://github.com/iansecretario/iansecretario.github.io/blob/b4e81ef01554564ba18b13f4f5f1e3ccbb89378c/assets/rev.gif)
+<IMG SRC="https://github.com/iansecretario/iansecretario.github.io/blob/b4e81ef01554564ba18b13f4f5f1e3ccbb89378c/assets/rev.gif">
 
-Yields:
 
 Ian is the founder of GuideM, curriculum lead and author for GuideM's Offensive offering. He is a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. Working as a VAPT Engineer and a Freelance Security consultant helping secure businesses and organizations against cyber attacks. He focuses nowadays with Penetration Testing, Enterprise Vulnerability Automation and Offensive exercises. <br>
  <br>
