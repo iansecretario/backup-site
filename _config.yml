@@ -11,7 +11,7 @@ plugins:
   - jekyll-sitemap
 
 #theme: jekyll-theme-hacker
-show_header: "true"
-show_header: true
+#show_header: "true"
+#show_header: true
 
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
