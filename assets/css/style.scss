@@ -8,3 +8,17 @@ element.style {
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
     color: #50dfff;
     
+pre {
+  padding:8px 15px;
+  background: #15161e;
+  border:3px solid $pink;
+  overflow: auto;
+  overflow-y: hidden;
+
+  code {
+    color: $foreground;
+    background: $background;
+    margin: 0;
+    padding: 0;
+  }
+}
