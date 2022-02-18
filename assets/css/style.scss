@@ -407,14 +407,19 @@ section {
   display: flex;
   flex-direction: row-reverse;
 }
-.btn-copy{
-  color: #FFF;
-  background-color: #EB3A3A;
-  border: 0;
-  padding: 5px 10px;
-  cursor: pointer;
+.btn-copy {
+    color: #FFF;
+    background-color: #794c9f;
+    border: 0;
+    padding: 2px 4px;
+    cursor: pointer;
+    opacity: 0.3;
+    border-radius: 2px;
+    padding: 4px 7px;
+}
+
 }
 .btn-copy:hover{
-  background-color: rgba(235, 58, 58, 0.774);
+  background-color: rgba(83, 31, 126, 0.774);
 }
 /* modification for button copy */
