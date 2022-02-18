@@ -5,8 +5,13 @@ aplugins:
   
 #theme: jekyll-theme-hacker
 #show_header: "false"
-
 markdown: kramdown
 kramdown:
-  syntax_highlighter: pygments
-highlighter: pygments
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: csharp
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
