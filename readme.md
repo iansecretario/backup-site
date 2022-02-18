@@ -137,7 +137,6 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-{% include codeHeader.html %}
 ```someLanguage
 code goes in here!
 ```
