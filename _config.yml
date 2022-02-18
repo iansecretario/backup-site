@@ -6,8 +6,9 @@ remote_theme: "dracula/gh-pages"
 
 highlighter: rouge
 plugins:
-  #- jekyll-seo-tag
+  - jekyll-seo-tag
   - jemoji
-  
+  - jekyll-sitemap
+
 #theme: jekyll-theme-hacker
 #show_header: "false"
