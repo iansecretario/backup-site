@@ -10,6 +10,7 @@ import sys
 
 ```
 
+`single-line` inline code
 
 ---
 layout: default
