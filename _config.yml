@@ -1,7 +1,7 @@
-title: Ian Secretario
-email: iansecretario@guidem.ph
-baseurl: '/'
-github_username: iansecretario
+#title: Ian Secretario
+#email: iansecretario@guidem.ph
+#baseurl: '/'
+#github_username: iansecretario
 remote_theme: "dracula/gh-pages"
 markdown: kramdown
 highlighter: rouge
