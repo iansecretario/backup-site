@@ -1,7 +1,8 @@
 remote_theme: "dracula/gh-pages"
 
-aplugins:
+plugins:
   #- jekyll-seo-tag
+  - jemoji
   
 #theme: jekyll-theme-hacker
 #show_header: "false"
