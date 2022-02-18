@@ -1,11 +1,12 @@
 
-## About Me
+### About Me
 <img src="{{ site.baseurl }}/assets/rev.gif">
 
-#### Ian is the founder of GuideM, curriculum lead and author for GuideM's Offensive offering. He is a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. Working as a VAPT Engineer and a Freelance Security consultant helping secure businesses and organizations against cyber attacks. He focuses nowadays with Penetration Testing, Enterprise Vulnerability Automation and Offensive exercises.
+#### [](#header-4)Header 4
+ Having Founded GuideM, innovating as curriculum lead and author for GuideM's Offensive offering. I have a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. Working as a VAPT Engineer and a Freelance Security consultant helping secure businesses and organizations against cyber attacks.
 <br>
  <br>
-He spends his time doing: <br>
+I spends most of my time doing: <br>
 •  Training/Home Laboratory <br>
 •  Scripting & Automation <br>
 •  Participating in CTF challenges <br>
@@ -23,7 +24,7 @@ Follow/Contact him :<br><br>
 
 
 ```python
-import os 
+import os
 import sys
 
 #test only
