@@ -8,6 +8,25 @@ permalink: /
 ---
 # @Ian Secretario
 
+Ian is the founder of GuideM, curriculum lead and author for GuideM's Offensive offering. He is a well rounded Information Security Professional with a diverse background from network administration, systems engineering and architecture. Working as a VAPT Engineer and a Freelance Security consultant helping secure businesses and organizations against cyber attacks. He focuses nowadays with Penetration Testing, Enterprise Vulnerability Automation and Offensive exercises. <br>
+ <br>
+He spends his time doing: <br>
+•  Training/Home Laboratory <br>
+•  Scripting & Automation <br>
+•  Participating in CTF challenges <br>
+  <br>
+Certifications/Achievements : GWAPT EWPTXv2 OSCE OSCP CRTO CRTE CRTP EWPT CFR CCNP
+
+
+Follow/Contact him :<br><br>
+<a href = "mailto: ian.secretario@guidem.ph">Email </a> |
+<a href="https://www.linkedin.com/in/markchristiansecretario/">Linkedin</a> |
+<a href="https://twitter.com/iansecretario_/">Twitter</a> |
+<a href="https://github.com/iansecretario">Github</a>
+
+
+
+
 ```python
 import os 
 import sys
@@ -142,7 +161,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-```someLanguage
+```
 code goes in here!
 ```
 
