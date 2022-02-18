@@ -5,8 +5,4 @@ aplugins:
   
 #theme: jekyll-theme-hacker
 #show_header: "false"
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+
