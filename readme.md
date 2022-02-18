@@ -15,7 +15,7 @@ I spends most of my time doing: <br>
 Certifications/Achievements : GWAPT EWPTXv2 OSCE OSCP CRTO CRTE CRTP EWPT CFR CCNP
 
 
-Follow/Contact him :<br><br>
+#### Follow/Contact me at :<br><br>
 <a href = "mailto: ian.secretario@guidem.ph">Email </a> |
 <a href="https://www.linkedin.com/in/markchristiansecretario/">Linkedin</a> |
 <a href="https://twitter.com/iansecretario_/">Twitter</a> |
