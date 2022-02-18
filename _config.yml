@@ -4,6 +4,7 @@ baseurl: ''
 github_username: iansecretario
 remote_theme: "dracula/gh-pages"
 
+markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-seo-tag
