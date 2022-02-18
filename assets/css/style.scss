@@ -4,6 +4,8 @@
 @import "jekyll-theme-dracula";
 
 
+
+
 element.style {
 }
 code {
@@ -21,6 +23,26 @@ element.style {
 }
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
     color: #fff;
+}
+
+.highlight > pre > div{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.btn-copy {
+    color: #FFF;
+    background-color: #794c9f;
+    border: 0;
+    padding: 2px 4px;
+    cursor: pointer;
+    opacity: 0.3;
+    border-radius: 2px;
+    padding: 4px 7px;
+}
+
+}
+.btn-copy:hover{
+  background-color: rgba(83, 31, 126, 0.774);
 }
 
 body {
@@ -401,25 +423,3 @@ section {
   display: flex;
   justify-content: flex-end;
 }
-
-/* modification for button copy */
-.highlight > pre > div{
-  display: flex;
-  flex-direction: row-reverse;
-}
-.btn-copy {
-    color: #FFF;
-    background-color: #794c9f;
-    border: 0;
-    padding: 2px 4px;
-    cursor: pointer;
-    opacity: 0.3;
-    border-radius: 2px;
-    padding: 4px 7px;
-}
-
-}
-.btn-copy:hover{
-  background-color: rgba(83, 31, 126, 0.774);
-}
-/* modification for button copy */
