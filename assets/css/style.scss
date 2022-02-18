@@ -3,6 +3,13 @@
 
 @import "jekyll-theme-dracula";
 
+
+element.style {
+}
+.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+    color: #fff;
+}
+
 body {
   padding:0px 0 20px 0px;
   margin: 0px;
