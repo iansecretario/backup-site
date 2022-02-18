@@ -3,7 +3,7 @@
 ---
 # @Ian Secretario
 
-```python
+```python {data-file="assets/scripts/copyCode.js" data-copyable=true}
 import os 
 import sys
 
