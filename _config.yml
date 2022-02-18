@@ -1,6 +1,6 @@
 title: Ian Secretario
 email: iansecretario@guidem.ph
-baseurl: '' 
+baseurl: '/'
 github_username: iansecretario
 remote_theme: "dracula/gh-pages"
 show_header: true
@@ -12,4 +12,4 @@ plugins:
   - jekyll-sitemap
 
 #theme: jekyll-theme-hacker
-#show_header: "false"
+show_header: "true"
