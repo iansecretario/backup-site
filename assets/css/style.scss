@@ -123,7 +123,7 @@ pre {
   box-shadow: 0 0 2px #fff, 0 0 6px #614182, 0 0 18px #614182, 0 0 4px;
   overflow: auto;
   overflow-y: hidden;
-  border-style: none;
+   border: 1px solid $purple;
   code {
     color: $foreground;
     background: $background;
