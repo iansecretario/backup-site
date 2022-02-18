@@ -398,7 +398,29 @@ section {
     }
   }
 }
+
 .code-header {
   display: flex;
   justify-content: flex-end;
 }
+/* modification for button copy */
+.highlight > pre > div{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.btn-copy {
+    color: #FFF;
+    background-color: #794c9f;
+    border: 0;
+    padding: 2px 4px;
+    cursor: pointer;
+    opacity: 0.3;
+    border-radius: 2px;
+    padding: 4px 7px;
+}
+
+}
+.btn-copy:hover{
+  background-color: rgba(83, 31, 126, 0.774);
+}
+/* modification for button copy */
