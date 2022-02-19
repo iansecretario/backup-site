@@ -8,15 +8,14 @@ layout: default
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
   </head>
-  <div markdown="1">
-    {{% include readme.md %}}
   <body>
+    <div markdown="1">
+    {% include_relative readme.md %}
     <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
 {% endfor %}
 <h1>Recent Posts</h1>
 {% for post in site.posts offset:1 limit:2 %}
 {% endfor %}
-    {{ content }}
   </body>
 </html>
