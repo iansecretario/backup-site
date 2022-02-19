@@ -17,7 +17,6 @@ I spends most of my time doing: <br>
   <br>
 Certifications/Achievements : GWAPT EWPTXv2 OSCE OSCP CRTO CRTE CRTP EWPT CFR CCNP
 
-<html>
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -31,7 +30,6 @@ Certifications/Achievements : GWAPT EWPTXv2 OSCE OSCP CRTO CRTE CRTP EWPT CFR CC
 {% for post in site.posts offset:1 limit:2 %}
 {% endfor %}
   </body>
-</html>
 
 
 #### Follow/Contact me at :<br><br>
