@@ -2,15 +2,6 @@
 permalink: /
 ---
 
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    {{ content }}
-  </body>
 <article class="stack gap-10">
   <section class="stack gap--3 prose">
     <h1>Hi, I'm Aleksandr.</h1>
@@ -26,8 +17,21 @@ permalink: /
   <section class="stack gap-5">
     <h2 id="featured-posts" class="banner-heading">Featured Posts</h2>
     {%- assign featuredPosts = collections.posts | where: "data.isFeatured", true -%}
-    {%- include post.html posts: featuredPosts, titleLevel: 3 -%}
+    {%- include postPreviews.html posts: featuredPosts, titleLevel: 3 -%}
   </section>
 </article>
-
-</html>
+{%- assign networks = socials | entries -%}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "image": "{{ '/assets/images/profile-photo-400.jpeg' | toAbsoluteUrl }}",
+  "jobTitle": "Software Developer",
+  "name": "{{ site.author }}",
+  "sameAs": [
+    {%- for network in networks %}
+      "{{ network[1].url }}"{%- if forloop.last == false -%},{%- endif -%}
+    {% endfor %}
+  ]
+}
+</script>
