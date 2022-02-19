@@ -14,18 +14,12 @@ plugins:
 show_header: "false"
 #show_header: true
 enableTags: true
-tagarray: []
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+#social:
+#    - icon: fa-twitter
+#      link: "https://twitter.com/iansecretario"
+#    - icon: fa-github
+#      link: "https://github.com/iAnsecretario"#
 
-social:
-    - icon: fa-twitter
-      link: "https://twitter.com/iansecretario"
-    - icon: fa-github
-      link: "https://github.com/iAnsecretario"
-
-share:
-  twitter_username: iAnsecretario
+#share:
+#  twitter_username: iAnsecretario
