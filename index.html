@@ -9,7 +9,7 @@ layout: default
     <title>{{ page.title }}</title>
   </head>
   <div markdown="1">
-    {{ content }}
+
   <body>
     <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
@@ -17,5 +17,6 @@ layout: default
 <h1>Recent Posts</h1>
 {% for post in site.posts offset:1 limit:2 %}
 {% endfor %}
+    {{ content }}
   </body>
 </html>
