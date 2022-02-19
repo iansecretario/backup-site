@@ -13,19 +13,3 @@ plugins:
 #theme: jekyll-theme-hacker
 show_header: "false"
 #show_header: true
-
-#theme: jekyll-theme-hacker
-footer:
-  enable_contact_details: true
-  contact_details_heading: "Contact"
-
-  enable_social_media_icons: true
-
-  enable_menu_footer_primary: true
-  footer_primary_menu_title: "Advance"
-  enable_menu_footer_secondary: true
-  footer_secondary_menu_title: "About"
-  enable_menu_footer_tertiary: true
-  footer_tertiary_menu_title: "Support"
-
-  enable_bottom_menu: true
