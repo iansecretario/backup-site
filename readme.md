@@ -1,7 +1,3 @@
----
-layout : homepage
----
-
 ### About Me
 <img src="{{ site.baseurl }}/assets/rev.gif">
 
