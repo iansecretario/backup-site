@@ -17,20 +17,6 @@ I spends most of my time doing: <br>
   <br>
 Certifications/Achievements : GWAPT EWPTXv2 OSCE OSCP CRTO CRTE CRTP EWPT CFR CCNP
 
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-    {% include_relative readme.md %}
-    <h1>Latest Post</h1>
-{% for post in site.posts limit:1 %}
-{% endfor %}
-<h1>Recent Posts</h1>
-{% for post in site.posts offset:1 limit:2 %}
-{% endfor %}
-  </body>
-
 
 #### Follow/Contact me at :<br><br>
 <a href = "mailto: ian.secretario@guidem.ph">Email </a> |
