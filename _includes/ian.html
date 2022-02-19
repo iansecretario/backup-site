@@ -2,6 +2,6 @@
 layout: default
 ---
 
-{% include readme.md %}
-{{ include.content }}
+{{ include.content.content | markdownify }}
+
 {{ content }}

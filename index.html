@@ -7,7 +7,7 @@ layout: default
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    {% include ian.html %}
+{{ include.content.content | markdownify }}
   </head>
   <body>
     <h1>Latest Post</h1>
