@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: homepage
 ---
 
 <!doctype html>
@@ -10,12 +10,5 @@ layout: default
   </head>
   <body>
     {{ content }}
-    <ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
   </body>
 </html>
