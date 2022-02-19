@@ -5,22 +5,12 @@ layout: default
 <!doctype html>
 <html>
   <head>
-      <ul class="sidebar-nav">
-            <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
-            {% for i in site.urls %}
-              <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-        <!-- end /.fixed-condition -->
-      </div>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
   </head>
   <body>
     <div markdown="1">
-    {% include_relative readme.md %}
+    {% include_relative /includes/ian.html %}
         </div markdown>
     <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
