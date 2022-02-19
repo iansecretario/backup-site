@@ -9,7 +9,7 @@ layout: default
     <title>{{ page.title }}</title>
   </head>
   <body>
-    {% include ian.html %}
+    {% include_relative readme.md %}
     <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
 {% endfor %}
