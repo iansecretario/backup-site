@@ -1,0 +1,37 @@
+---
+permalink: /
+---
+
+<article class="stack gap-10">
+  <section class="stack gap--3 prose">
+    <h1>Hi, I'm Aleksandr.</h1>
+    <p class="fs-lg">
+      I create beautiful, accessible, and performant user experiences on the web. You can <a href="/blog/">explore my writing</a>, <a href="/about/">learn more about me</a>, or <a href="/feed.xml">subscribe to my RSS feed</a>.
+    </p>
+  </section>
+  <section class="stack gap-5">
+    <h2 id="recent-posts" class="banner-heading">Recent Posts</h2>
+    {%- assign recentPosts = collections.posts | limit: 5 -%}
+    {%- include postPreviews.html posts: recentPosts, titleLevel: 3 -%}
+  </section>
+  <section class="stack gap-5">
+    <h2 id="featured-posts" class="banner-heading">Featured Posts</h2>
+    {%- assign featuredPosts = collections.posts | where: "data.isFeatured", true -%}
+    {%- include postPreviews.html posts: featuredPosts, titleLevel: 3 -%}
+  </section>
+</article>
+{%- assign networks = socials | entries -%}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "image": "{{ '/assets/images/profile-photo-400.jpeg' | toAbsoluteUrl }}",
+  "jobTitle": "Software Developer",
+  "name": "{{ site.author }}",
+  "sameAs": [
+    {%- for network in networks %}
+      "{{ network[1].url }}"{%- if forloop.last == false -%},{%- endif -%}
+    {% endfor %}
+  ]
+}
+</script>
