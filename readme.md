@@ -1,7 +1,4 @@
----
-layout: default
-author: ian
----
+
 ### About Me
 <img src="{{ site.baseurl }}/assets/rev.gif">
 

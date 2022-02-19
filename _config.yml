@@ -1,6 +1,6 @@
 title: Offense is the best Defense
 #email: iansecretario@guidem.ph
-baseurl: '/'
+#baseurl: '/'
 #github_username: iansecretario
 remote_theme: "dracula/gh-pages"
 markdown: kramdown
@@ -13,13 +13,19 @@ plugins:
 #theme: jekyll-theme-hacker
 show_header: "false"
 #show_header: true
-#enableTags: true
 
-#social:
-#    - icon: fa-twitter
-#      link: "https://twitter.com/iansecretario"
-#    - icon: fa-github
-#      link: "https://github.com/iAnsecretario"#
+#theme: jekyll-theme-hacker
+footer:
+  enable_contact_details: true
+  contact_details_heading: "Contact"
 
-#share:
-#  twitter_username: iAnsecretario
+  enable_social_media_icons: true
+
+  enable_menu_footer_primary: true
+  footer_primary_menu_title: "Advance"
+  enable_menu_footer_secondary: true
+  footer_secondary_menu_title: "About"
+  enable_menu_footer_tertiary: true
+  footer_tertiary_menu_title: "Support"
+
+  enable_bottom_menu: true
