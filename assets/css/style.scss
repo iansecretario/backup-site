@@ -113,7 +113,7 @@ strong {
 }
 
 .wrapper {
-  max-width:550px;
+  max-width:850px;
   margin:0 auto;
   position:relative;
   padding: 0 20px;
@@ -425,134 +425,39 @@ section {
 }
 /* modification for button copy */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600&display=swap');
-
-
-
-.fancy-quote {
-  margin: 0 auto;
-  max-width: 1100px;
-  margin: 30px;
-}
-.fancy-quote h1 {
-  margin-top: 0;
-  font-size: 2em;
-  color: white;
-  font-weight: 700;
-  padding-bottom: 35px;
-  opacity: 0.9;
-  letter-spacing: 1px;
-}
-.fancy-quote figcaption {color:white;}
-.fancy-quote p {
-  line-height: 1.25em;
-}
-.fancy-quote cite { font-style:inherit;padding-left:10px;letter-spacing:1px;}
-.fancy-quote blockquote {
-  width: 100%;
-  margin-left: -50px;
-  padding: 40px 50px;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #78C0A8 ;
+  line-height:1.6;
   position: relative;
-  background: #3c3b6e;
-  margin-bottom: 28px;
-  color: white;
-  opacity: 0.85;
+  background:#EDEDED;
 }
 
-.fancy-quote blockquote::before,
-.fancy-quote blockquote::after {
-  top: 0;
-  bottom: 0;
-  width: 25px;
-  content: "";
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
   position: absolute;
-  background: #3c3b6e;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.25);
+  left: 10px;
+  top:-10px;
 }
-.fancy-quote blockquote::before {
-  right: 100%;
+
+blockquote::after{
+  content: '';
 }
-.fancy-quote blockquote::after {
-  left: 100%;
-}
-.fancy-quote blockquote p {
-  margin: 0;
-  padding-bottom: 35px;
-  padding-top: 15px;
-}
-.fancy-quote blockquote p::before {
-  top: 0;
-  left: 16px;
-  color: #b22234;
-  content: "“";
-  font-size: 4em;
-  position: absolute;
-  text-shadow: -3px 0 #f7f7f7;
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
   font-weight: bold;
-  font-family: "Times New Roman", "serif";
-
-  opacity: 0.75;
-}
-.fancy-quote blockquote p::after {
-  right: 16px;
-  color: #b22234;
-  content: "”";
-  bottom: -32px;
-  font-size: 4em;
-  position: absolute;
-  text-shadow: 3px 0 #c2c2c2;
-  font-weight: bold;
-  font-family: "Times New Roman", "serif";
-
-  opacity: 0.75;
-}
-.fancy-quote blockquote cite {
-  font-size: 18px;
-  font-style: italic !important;
-  letter-spacing: 2px;
-}
- .fancy-quote blockquote {
-    padding-right: 0;
-    width: calc(100% + 50px);
-  }
-
-@media screen and (min-width: 750px) {
-  .fancy-quote h1 {
-    font-size: 3em;
-  }
-  .fancy-quote blockquote {
-    padding-right: 0;
-    width: calc(100% + 50px);
-  }
-  .fancy-quote blockquote::before {
-    display: none;
-  }
-  .fancy-quote blockquote::after {
-    width: 50px;
-    border-radius: 0 3px 3px 0;
-  }
-  .fancy-quote blockquote p {
-    font-size: 35px;
-font-family: 'Montserrat', sans-serif;
-    font-style: italic;
-    opacity: 0.9;
-    letter-spacing: 1px;
-  }
-  .fancy-quote blockquote p::after {
-    bottom: -56px;
-  }
-  .fancy-quote blockquote cite {
-    font-size: 28px;
-    font-style: normal !important;
-  }
-}
-
-body {
- height:100vh;
-  font-family: 'Montserrat', sans-serif;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-top:1em;
 }
