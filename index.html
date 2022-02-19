@@ -9,7 +9,7 @@ layout: default
     <title>{{ page.title }}</title>
   </head>
   <div markdown="1">
-
+    {{% include readme.md %}}
   <body>
     <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
