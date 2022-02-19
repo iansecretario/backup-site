@@ -4,9 +4,6 @@ layout: default
 
 <ul>
     <li>
-        Plain: {{ include.readme }}
-    </li>
-    <li>
-        Markdownify: {{ include.readme | markdownify }}
+        {{ % include readme.md }}
     </li>
 </ul>
