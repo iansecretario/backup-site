@@ -2,7 +2,11 @@
 layout: default
 ---
 
-{% for link in page.links %}
-- [{{ link.title }}]({{ link.url }})
-{% if link.description %}  - {{ link.description }}{% endif %}
-{% endfor %}
+<ul>
+    <li>
+        Plain: {{ include.readme }}
+    </li>
+    <li>
+        Markdownify: {{ include.readme | markdownify }}
+    </li>
+</ul>
