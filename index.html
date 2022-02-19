@@ -26,7 +26,7 @@ permalink: /
   <section class="stack gap-5">
     <h2 id="featured-posts" class="banner-heading">Featured Posts</h2>
     {%- assign featuredPosts = collections.posts | where: "data.isFeatured", true -%}
-    {%- include postPreviews.html posts: featuredPosts, titleLevel: 3 -%}
+    {%- include post.html posts: featuredPosts, titleLevel: 3 -%}
   </section>
 </article>
 
