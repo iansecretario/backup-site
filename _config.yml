@@ -1,6 +1,6 @@
 title: Offense is the best Defense
 #email: iansecretario@guidem.ph
-#baseurl: '/'
+baseurl: '/'
 #github_username: iansecretario
 remote_theme: "dracula/gh-pages"
 markdown: kramdown
