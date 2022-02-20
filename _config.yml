@@ -13,3 +13,8 @@ plugins:
 #theme: jekyll-theme-hacker
 show_header: "false"
 #show_header: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: true
