@@ -2,14 +2,14 @@ title: Offense is the best Defense
 #email: iansecretario@guidem.ph
 baseurl: '/'
 #github_username: iansecretario
-#remote_theme: "dracula/gh-pages"
+remote_theme: "dracula/gh-pages"
 markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-sitemap
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #theme: minimal-mistakes-jekyll
 show_header: "false"
 #show_header: true
