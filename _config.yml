@@ -10,7 +10,7 @@ plugins:
   - jemoji
   - jekyll-sitemap
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 show_header: "false"
 #show_header: true
 defaults:
