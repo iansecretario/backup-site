@@ -32,4 +32,6 @@ int main()
 }
 ```
 `MessageBoxA` 
-![[_posts/attachments/Pasted image 20220517142101.png]]
+![image12](_posts/attachments/Pasted image 20220517142101.png)
+![image](https://user-images.githubusercontent.com/20951604/168744005-771fd0bd-994b-4a58-b6eb-6473e35a947f.png)
+
