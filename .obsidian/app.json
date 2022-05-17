@@ -1,8 +1,8 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "./",
   "showUnsupportedFiles": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "useMarkdownLinks": true
 }
