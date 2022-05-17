@@ -12,4 +12,4 @@ diameter). It has a fibrous, dull greenish-brown skin and bright green or
 golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
 texture, with a sweet and unique flavor.
 
-![t](_posts/attachments/Pasted image 20220517143610.png)
+![t]("_posts/attachments/Pasted image 20220517143610.png")
