@@ -31,4 +31,5 @@ int main()
 	return 0;
 }
 ```
-`MessageBoxA`
+`MessageBoxA` 
+![[_posts/attachments/Pasted image 20220517142101.png]]
