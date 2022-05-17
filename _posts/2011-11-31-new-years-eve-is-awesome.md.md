@@ -32,4 +32,5 @@ int main()
 }
 ```
 `MessageBoxA` 
-![[_posts/attachments/Pasted image 20220517142101.png]]
+
+![test](_posts/attachments/Pasted%20image%2020220517143418.png)

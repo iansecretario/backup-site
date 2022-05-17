@@ -3,5 +3,6 @@
   "livePreview": true,
   "attachmentFolderPath": "./attachments",
   "showUnsupportedFiles": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
 }
