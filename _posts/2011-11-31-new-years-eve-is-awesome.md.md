@@ -32,4 +32,4 @@ int main()
 }
 ```
 `MessageBoxA` 
-![test](_posts/attachments/Pasted%20image%2020220517143610.png)
+![}(_posts/attachments/Pasted%20image%2020220517143610.png)
