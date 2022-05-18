@@ -1,5 +1,5 @@
 ### About Me
-<img src="{{ site.baseurl }}/assets/rev.gif">
+![](https://github.com/iansecretario/iansecretario.github.io/blob/cd2ed66f10d2b79af7744cfcf7d2969fdcbaa5d6/assets/rev.gif)
 
 >I am really proud to have founded GuideM, being able to teach and mentor people is really something that helps you grow not only professionally but also in terms of aspirational goals of touching someonse life.
 
