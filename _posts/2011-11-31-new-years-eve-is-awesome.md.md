@@ -34,4 +34,92 @@ int main()
 `MessageBoxA` 
 
 
+<html>
+<div class="fr-view">
+    <div class="Widgets" id="Terminal">
+        <div class="Container" style="border: 1px solid #777;
+  align-content: center;
+    border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  background: #23252F;
+  display: inline-block;
+  width: 1150px;
+  box-shadow: 5px 5px 20px 10px rgba(41, 41, 41, .3);
+  max-height: 500px;
+  overflow: auto;">
+            <div class="titleBar" style="display: flex;
+  flex-flow: row nowrap;
+  padding: 4px 10px;
+  background: #2b2e3d;
+  position: sticky;
+  top: 0;">
+                <div class="scrollbar" id="style-1">
+                    <div class="force-overflow">
+                        <br>
+                    </div>
+                </div>
+                <div class="windowButton">&nbsp;&nbsp;</div>
+                <div class="title" style="flex: 1;
+  text-align: center;
+  color: #DFDFDF;
+  font-family: monospace;
+  font-size: 16px;">root@Kali:~</div>
+                <div class="windowMenu">
+                    <br>
+                </div>
+            </div>
+            <div class="body" style="padding: 10px 7px;
+  height: 100%;">
+                <div class="entry" style="color: cyan;
+  margin: 20px 0;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 18px;">
+                    <div class="firstLine" style="display: flex;
+  flex-flow: row wrap;">
+                        <div class="preDec">┌──(root💀kali)-[~]
+                            <br>└─# exit
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="entry" style="color: chartreuse;
+  margin: 5px 0;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 18px;">
+                    <div class="firstLine" style="display: flex;
+  flex-flow: row wrap;">
+                        <div class="finPostDec">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="secondLine" style="display: flex;
+  flex-flow: row wrap;">
+                        <div class="scDec">
+                            <br>
+                            <br>
+                        </div>
+
+                        <p>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+
+        </script>
+    </div>
+</div>
+
+<p>
+    <br>
+</p>
+</html>
+
 ![](https://github.com/iansecretario/iansecretario.github.io/blob/main/_posts/attachments/img/20220517142008.png)
